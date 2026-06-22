@@ -41,6 +41,18 @@ from sklearn.datasets import load_breast_cancer
 
 Required libraries such as Pandas, NumPy, Scikit-learn, Seaborn, and Matplotlib are imported.
 
+```
+import pandas as pd
+import numpy as np
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+from sklearn import tree
+from sklearn.metrics import accuracy_score,confusion_matrix,classification_report
+import seaborn as sns
+import matplotlib.pyplot as plt
+```
+
 # 2. Load Dataset
 
 The Breast Cancer dataset is loaded using Scikit-learn.
