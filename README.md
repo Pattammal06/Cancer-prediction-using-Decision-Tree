@@ -32,6 +32,7 @@ The dataset is loaded directly from Scikit-learn:
 
 ```python
 from sklearn.datasets import load_breast_cancer
+```
 
 ## Project Workflow
 
